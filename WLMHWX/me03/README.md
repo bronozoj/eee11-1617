@@ -55,7 +55,7 @@ Outputs:
 
 1. Multiplication table with corresponding rows and columns
 
-[me03_4 sample output](img/4.png)
+[me03_4 sample output][img/4.png]
 
 Prompt the user to input an integer from 1 to 10. Do a multiplication table using a NESTED FOR statement. Display the complete multiplication table with proper rows and columns. Always assume the input is valid (input is an integer and not a character, float, etc). Do an error check (identify this number if it is between 1 and 10, if it is not, end the program).
 
@@ -71,8 +71,8 @@ Outputs:
 
 Prompt the user to input an integer. Display ALL applicable age group according to the figure shown using a NESTED IF statement. Make sure to include BOTH primary and secondary age group in your output. Always assume the input is valid (input is an integer and not a character, float, etc). Do an error check (identify this number if it is positive, if it is not, end the program).
 
-[me03_5 legend](img/5-1.png)
+[me03_5 legend][img/5-1.png]
 
-[me03_5 sample output](img/5-2.png)
+[me03_5 sample output][img/5-2.png]
 
 *Red lines in figure shows different execution instances of program.
