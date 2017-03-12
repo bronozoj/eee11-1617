@@ -1,8 +1,9 @@
-/*******************************
- * me02_01 - Negative, Zero, or Positive
- * programmed by Jaime Broñozo
- *
-********************************/
+/*************************************************************/
+/* me02_01 - Negative, Zero, or Positive
+/* Programmed by Jaime Broñozo
+/*
+/*
+/*************************************************************/
 
 #include <stdio.h>
 
