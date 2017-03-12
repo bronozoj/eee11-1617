@@ -1,8 +1,9 @@
-/*******************************
- * me03_1.c - Factorial Computer
- * programmed by Jaime Broñozo
- *
-********************************/
+/*************************************************************
+*  me03_1.c - Factorial Computer
+*  programmed by Jaime Broñozo
+*
+*
+**************************************************************/
 
 #include <stdio.h>
 
@@ -14,7 +15,7 @@ int main(void)
 	printf("Enter an integer (1-12): ");
 	scanf(" %d", &number);
 	
-	printf("The number is %d\n");
+	printf("The number is %d\n", number);
 	
 	// value is valid. compute
 	if(number >= 1 && number <= 12){
@@ -22,7 +23,7 @@ int main(void)
 		//postfix (number--) returns value before decrementing
 		while(number > 0)
 			result *= number--;
-			printf(The result is %d\n", result);
+			printf("The result is %d\n", result);
 	}
 	
 	else
