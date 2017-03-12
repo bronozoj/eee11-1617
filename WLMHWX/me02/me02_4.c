@@ -1,8 +1,9 @@
-/*************************************************************/
-/* me02_4 - Vowel Identifier
-/* Programmed by Jaime Broñozo
-/*
-/*************************************************************/
+/*************************************************************
+*  me02_4 - Vowel Identifier
+*  Programmed by Jaime Broñozo
+*
+*
+**************************************************************/
 
 #include <stdio.h>
 
@@ -13,7 +14,7 @@ int main(void)
 	// prompt for user input
 	printf("Input a letter: ");
 	scanf(" %c", &choice);
-	printf("The letter is %c\n");
+	printf("The letter is %c\n", choice);
 	
 	// cases are like start markers and breaks are stop markers
 	switch(choice){

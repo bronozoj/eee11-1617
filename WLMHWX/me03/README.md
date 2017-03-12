@@ -1,8 +1,12 @@
-ME03_1) Factorial Computer (2 pts)
-	Inputs: 1) An integer (from 1-12)
+#[ME03_1](me03_1.c)
+Factorial Computer (2 pts)
+
+Inputs:1) An integer (from 1-12)
 	Outputs: 1) An integer (user input)
 			2) Factorial Output
-Prompt the user to input an integer. Display the integer (user input) and compute its factorial output using a WHILE loop. Always assume the input is valid (input is an integer and not a character, float, etc). Do an error check (identify this number if it is between 1 and 12, if it is not, end the program).
+Prompt the user to input an integer. Display the integer (user input) and compute its factorial output using a WHILE 
+loop. Always assume the input is valid (input is an integer and not a character, float, etc). Do an error check (identify this 
+number if it is between 1 and 12, if it is not, end the program).
 
 ME03_2) Sum and Average (2 pts)
 	Inputs: 1) An integer (positive)

@@ -1,9 +1,9 @@
-/*************************************************************/
-/* me02_2 - Questionnaire
-/* Programmed by Jaime Broñozo
-/*
-/*
-/*************************************************************/
+/*************************************************************
+*  me02_2 - Questionnaire
+*  Programmed by Jaime Broñozo
+*
+*
+**************************************************************/
 
 #include <stdio.h>
 #include <ctype.h>
@@ -13,7 +13,7 @@ int main(void)
 	char choice;
 	
 	// prompt for user input
-	printf("Who is the Miss Universe 2017 winner?\n)"
+	printf("Who is the Miss Universe 2017 winner?\n");
 	printf("\ta. Philippines\n");
 	printf("\tb. France\n");
 	printf("\tc. Netherlands\n");
@@ -23,7 +23,7 @@ int main(void)
 	// if letter of choice was within answers
 	if( tolower(choice) >= 'a' && tolower(choice) <= 'd')
 	{
-		printf("Your answer is %c\n", choice)
+		printf("Your answer is %c\n", choice);
 		
 		// evaluate answer
 		if(tolower(choice) == 'b')
@@ -34,5 +34,5 @@ int main(void)
 	
 	else
 		printf("Invalid input\n");
-	return 0
+	return 0;
 }

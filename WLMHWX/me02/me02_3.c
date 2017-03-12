@@ -1,9 +1,9 @@
-/*************************************************************/
-/* me02_3 - Month Converter
-/* Programmed by Jaime Broñozo
-/*
-/*
-/*************************************************************/
+/*************************************************************
+*  me02_3 - Month Converter
+*  Programmed by Jaime Broñozo
+*
+*
+**************************************************************/
 
 #include<stdio.h>
 
@@ -24,8 +24,8 @@ int main(void)
 			break;
 			
 		case 2:
-		 printf("2 - February\n");
-		 break;
+			printf("2 - February\n");
+			break;
 		 
 		case 3:
 			printf("3 - March\n");
@@ -60,7 +60,7 @@ int main(void)
 			break;
 			
 		case 11:
-			print("11 - November\n");
+			printf("11 - November\n");
 			break;
 			
 		case 12:

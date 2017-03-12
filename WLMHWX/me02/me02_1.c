@@ -1,9 +1,9 @@
-/*************************************************************/
-/* me02_01 - Negative, Zero, or Positive
-/* Programmed by Jaime Broñozo
-/*
-/*
-/*************************************************************/
+/*************************************************************
+*  me02_01 - Negative, Zero, or Positive
+*  Programmed by Jaime Broñozo
+*
+*
+**************************************************************/
 
 #include <stdio.h>
 
@@ -24,5 +24,5 @@ int main(void)
 		printf("The number is positive\n");
 	else
 		printf("The number is zero\n");
-	return 0
+	return 0;
 }
