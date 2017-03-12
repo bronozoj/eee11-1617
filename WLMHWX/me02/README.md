@@ -1,4 +1,5 @@
-[ME02_1)](me02_1.c) Negative, Zero, or Positive Identifier (2.5 pts)
+#[ME02_1](me02_1.c)
+Negative, Zero, or Positive Identifier (2.5 pts)
 
 Inputs:
 	1) An integer
@@ -8,7 +9,8 @@ Outputs:
 Prompt the user to input an integer. Store this number and identify this number if it is a negative, zero, or positive number using an IF statement. Display the integer (user input) and the number identifier (negative, zero, or positive). Always assume the input is valid (input is an integer and not a character, float, etc).
 
 
-[ME02_2](me02_2.c) Questionnaire (2.5 pts)
+#[ME02_2](me02_2.c)
+Questionnaire (2.5 pts)
 
 Inputs: 
 	1) Letters (a, b, c)
@@ -23,7 +25,8 @@ Who is the Miss Universe 2017 winner?
 Prompt the user to input a letter between a, b, c, or d to be the answer to the given question. Store this letter and display this letter together with the corresponding answer to the question using an IF statement. Display if the input is correct or not (Answer: B). Always assume the input is valid (input is a character and not an integer, float, etc). Display “Invalid Input” if the user gave a different letter from the choices.
 
 
-[ME02_3](me02_3.c) Month Converter (2.5 pts)
+#[ME02_3](me02_3.c)
+Month Converter (2.5 pts)
 
 Inputs:
 	1) Number (from 1 to 12)
@@ -33,7 +36,8 @@ Outputs:
 Prompt the user to input an integer from 1 to 12. Store this integer and display this integer together with the converted month (1 – January, 2 – February, etc) using a SWITCH statement. Always assume the input is valid (input is an integer and not a character, float, etc). Display “Invalid Input” if the user gave a different integer from the choices.
 
 
-[ME02_4](me02_4.c) Vowel Identifier (2.5 pts)
+#[ME02_4](me02_4.c)
+Vowel Identifier (2.5 pts)
 
 Inputs:
 	1) Letter (From A to Z or a to z)
