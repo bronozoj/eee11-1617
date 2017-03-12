@@ -2,6 +2,7 @@
 
 Laboratory Class Activities
 
+<<<<<<< HEAD
 [2. ME02](me02)
 >[me02-1](me02/README.md#ME02_1) - [Source](me02/me02_1.c)
 >[me02-2](me02/README.md#ME02_2) - [Source](me02/me02_2.c)
