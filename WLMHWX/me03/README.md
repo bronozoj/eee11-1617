@@ -59,9 +59,9 @@ Outputs:
 >
 > Input how many columns you want (1-10): 10
 >
-> 1\t2\t3\t4\t5\t6\t7\t8\t9\t10
+> 1	2	3	4	5	6	7	8	9	10
 >
-> 2\t4\t6\t8\t10\t12\t14\t16\t18\t20\t
+> 2	4	6	8	10	12	14	16	18	20
 
 Prompt the user to input an integer from 1 to 10. Do a multiplication table using a NESTED FOR statement. Display the complete multiplication table with proper rows and columns. Always assume the input is valid (input is an integer and not a character, float, etc). Do an error check (identify this number if it is between 1 and 10, if it is not, end the program).
 
