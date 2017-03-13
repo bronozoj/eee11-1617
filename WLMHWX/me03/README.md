@@ -59,7 +59,8 @@ Outputs:
 
 Prompt the user to input an integer from 1 to 10. Do a multiplication table using a NESTED FOR statement. Display the complete multiplication table with proper rows and columns. Always assume the input is valid (input is an integer and not a character, float, etc). Do an error check (identify this number if it is between 1 and 10, if it is not, end the program).
 
-## ME03_5) Age Group (2 pts)
+## [ME03_5](me03_5.c)
+Age Group (2 pts)
 
 Inputs:
 
