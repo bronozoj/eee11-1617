@@ -1,5 +1,5 @@
 /*************************************************************
-*  me04 - Print a Wave Pattern
+*  me03 - Print a Wave Pattern
 *  Programmed by Jaime Broñozo
 *
 *
