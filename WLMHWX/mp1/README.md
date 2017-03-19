@@ -2,7 +2,7 @@
 
 ## Special Notes
 
-Code will not be available 
+Code will not be available until April 7, 2017
 
 ## Instructions
 
