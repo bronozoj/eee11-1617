@@ -3,11 +3,11 @@
 ## [ME03_1](me03_1.c)
 Factorial Computer (2 pts)
 
-Inputs:
+**Inputs:**
 
 1. An integer (from 1-12)
 
-Outputs:
+**Outputs:**
 
 1. An integer (user input)
 2. Factorial Output
@@ -17,11 +17,11 @@ Prompt the user to input an integer. Display the integer (user input) and comput
 ## [ME03_2](me03_2.c)
 Sum and Average (2 pts)
 
-Inputs:
+**Inputs:**
 
 1. An integer (positive)
 
-Outputs:
+**Outputs:**
 
 1. Iteration number
 2. Sum of all inputs
@@ -32,11 +32,11 @@ Using a DO-WHILE loop, prompt the user to input an integer and compute the sum a
 ## [ME03_3](me03_3.c)
 Prime Number Detector (2 pts)
 
-Inputs:
+**Inputs:**
 
 1. An integer (from 1 to 1000)
 
-Outputs:
+**Outputs:**
 
 1. An integer (user input)
 2. Prime number or Not
@@ -46,12 +46,12 @@ Prompt the user to input an integer from 1 to 1000. Check if it is a prime numbe
 ## [ME03_4](me03_4.c)
 Multiplication Table (2 pts)
 
-Inputs:
+**Inputs:**
 
 1. Number of rows (from 1-10)
 2. Number of columns (from 1-10)
 
-Outputs:
+**Outputs:**
 
 1. Multiplication table with corresponding rows and columns
 
@@ -62,11 +62,11 @@ Prompt the user to input an integer from 1 to 10. Do a multiplication table usin
 ## [ME03_5](me03_5.c)
 Age Group (2 pts)
 
-Inputs:
+**Inputs:**
 
 1. Age (positive number)
 
-Outputs:
+**Outputs:**
 
 1. Applicable Age Group
 

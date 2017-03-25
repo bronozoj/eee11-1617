@@ -3,11 +3,11 @@
 ## [ME06_1](me06_1.c)
 Number Sorter (2.5 pts)
 
-Inputs:
+**Inputs:**
 
 1. Five integers (-,0,+)
 
-Outputs:
+**Outputs:**
 
 1. Five integers (user input)
 2. Five integers from least to greatest
@@ -17,12 +17,12 @@ Prompt the user to input five integers. Store these integers in an array and pri
 ## [ME06_2](me06_2.c)
 Calculator Functions (2.5 pts)
 
-Inputs:
+**Inputs:**
 
 1. Number array A (5 integers (-,0,+))
 2. Number array B (5 integers (-,0,+))
 
-Outputs:
+**Outputs:**
 
 1. Number array A and Number array B (user input)
 2. Sum (A + B)
@@ -36,12 +36,12 @@ Prompt the user to input two arrays of five integers each. Display both array of
 ## [ME06_3](me06_3.c)
 Frequency Checker (2.5 pts)
 
-Inputs:
+**Inputs:**
 
 1. A string (up to 50 characters)
 2. A character
 
-Outputs:
+**Outputs:**
 
 1. A string (user input)
 2. A character (user input)

@@ -2,18 +2,18 @@
 
 For this Machine Exercise:
 
-- Your code should only use the header file **STDIO.H**
-- Your code should **NOT** use *GLOBAL VARIABLES*
+- Your code should only use the header file *stdio.h*
+- Your code should **NOT** use **GLOBAL VARIABLES**
 - Π (3.1416) should be initialized as a variable in the main() function
 
 ## [ME01_1](me01_1.c) 
 Volume and Surface Area of a Sphere (5 pts)
 
-Inputs:
+**Inputs:**
 
 1. Radius of the Sphere
 
-Outputs:
+**Outputs:**
 
 1. Radius of the Sphere (user input)
 2. Volume of the Sphere
@@ -26,12 +26,12 @@ Prompt the user (using printf) to input a number to be the radius of the sphere.
 ## [ME01_2](me01_2.c)
 Volume and Surface Area of a Cylinder (5 pts)
 
-Inputs:
+**Inputs:**
 
 1. Radius of the Cylinder
 2. Height of the Cylinder
 
-Outputs:
+**Outputs:**
 
 1. Radius of the Cylinder (user input)
 2. Height of the Cylinder (user input)
