@@ -48,19 +48,3 @@ Outputs:
 3. Frequency of the character in the string
 
 Prompt the user to input a string then prompt the user to input a character. Store this string and display how many times the character was detected. The user could input any character valid (e.g. alphanumeric, symbols, etc).
-
-## [ME06_4](me06_4.c)
-Palindrome (2.5 pts)
-
-Inputs:
-
-1. A string (up to 20 characters)
-
-Outputs:
-
-1. A string (user input)
-2. Palindrome or not
-
-Prompt the user to input a string. Store this string and identify if this string is a palindrome or not. A Palindrome is a word that is spelled the same backwards (e.g. racecar). Always assume that the user will input alphabetical characters only. You could use string.h library functions (e.g. strncpy(), strncmp(), strncat(), strlen(), toupper(), tolower()).
-
-Hint: your code should also detect capitalization (e.g. Racecar is a palindrome!).

@@ -1,5 +1,5 @@
 /*************************************************************
-*  me06_4.c - Palindrome
+*  me07_1.c - Palindrome
 *  programmed by Jaime Broñozo
 *
 *
