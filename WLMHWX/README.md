@@ -11,6 +11,7 @@ Laboratory Class Activities
 6. [ME06](me06)
 7. [ME07](me07)
 8. [ME08](me08)
+9. [ME09](me09)
 
 ## Machine Problems
 
