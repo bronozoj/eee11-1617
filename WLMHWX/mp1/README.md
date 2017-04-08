@@ -1,9 +1,5 @@
 # Machine Problem 1
 
-## Special Notes
-
-Code will not be available until April 7, 2017
-
 ## Instructions
 
 At the start of the program:

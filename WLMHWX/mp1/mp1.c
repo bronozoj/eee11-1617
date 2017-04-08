@@ -38,11 +38,12 @@ int main(void)
 		return 0;
 	}
 
-	printf("Input the whole %dx%d matrix B\n", sizeB, sizeB);
+	printf("Input the whole %1$dx%1$d matrix B\n", sizeB);
 	for(row = 0; row < sizeB; row++)
 		for(col = 0; col < sizeB; col++)
 			scanf(" %f", &matB[row][col]);
 
+	// A. Display Matrix A and Matrix B
 	printf("\nDisplaying matrix A with %dx%d dimension:\n", sizeA, sizeA);
 	for(row = 0; row < sizeA; row++){
 		for(col = 0; col < sizeA; col++)
@@ -57,6 +58,7 @@ int main(void)
 		printf("\n");
 	}
 
+	// B. Display Transpose A and Transpose B
 	printf("\nDisplaying matrix A Transpose:\n");
 	for(col = 0; col < sizeA; col++){
 		for(row = 0; row < sizeA; row++)
@@ -71,6 +73,7 @@ int main(void)
 		printf("\n");
 	}
 
+	// C. to E. (Addition to multiplication and error handling)
 	if(sizeA == sizeB){
 		printf("\nDisplaying Sum (A + B):\n");
 		for(row = 0; row < sizeA; row++){
@@ -78,24 +81,14 @@ int main(void)
 				printf("%.2f\t", matA[row][col] + matB[row][col]);
 			printf("\n");
 		}
-	}
-	else{
-		printf("\nSum not possible. Matrix dimensions not equal. Matrix A has %dx%d dimension and Matrix B has %dx%d dimension.\n", sizeA, sizeA, sizeB, sizeB);
-	}
 
-	if(sizeA == sizeB){
 		printf("\nDisplaying difference (A - B):\n");
 		for(row = 0; row < sizeA; row++){
 			for(col = 0; col < sizeB; col++)
 				printf("%.2f\t", matA[row][col] - matB[row][col]);
 			printf("\n");
 		}
-	}
-	else{
-		printf("\nDifference not possible. Matrix dimensions not equal. Matrix A has %dx%d dimension and Matrix B has %dx%d dimension.\n", sizeA, sizeA, sizeB, sizeB);
-	}
 
-	if(sizeA == sizeB){
 		printf("\nDisplaying product (A * B):\n");
 		for(row = 0; row < sizeA; row++){
 			for(col = 0; col < sizeB; col++){
@@ -107,15 +100,19 @@ int main(void)
 		}
 	}
 	else{
+		printf("\nSum not possible. Matrix dimensions not equal. Matrix A has %dx%d dimension and Matrix B has %dx%d dimension.\n", sizeA, sizeA, sizeB, sizeB);
+		printf("\nDifference not possible. Matrix dimensions not equal. Matrix A has %dx%d dimension and Matrix B has %dx%d dimension.\n", sizeA, sizeA, sizeB, sizeB);
 		printf("\nProduct not possible. Matrix dimensions not equal. Matrix A has %dx%d dimension and Matrix B has %dx%d dimension.\n", sizeA, sizeA, sizeB, sizeB);
 	}
 
+	// F. Determinant A and Determinant B
 	printf("\nDeterminant A = %.2f\n", determinant(matA, sizeA));
 
 	detB = determinant(matB, sizeB);
 	printf("\nDeterminant B = %.2f\n", detB);
 
 
+	// G. A / B
 	if(detB == 0)
 		printf("\nQuotient not possible. Determinant of Matrix B is zero.\n");
 	else if(sizeA != sizeB)
@@ -161,6 +158,7 @@ int main(void)
 	return 0;
 }
 
+// recursive function like how a determinant is really calculated
 float determinant(float matrix[MAT_MAX][MAT_MAX], int size)
 {
 	int row, col, count;
