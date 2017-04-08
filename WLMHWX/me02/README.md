@@ -47,7 +47,7 @@ Month Converter (2.5 pts)
 1. Number (user input)
 2. Converted month (or “Invalid input”)
 
-Prompt the user to input an integer from 1 to 12. Store this integer and display this integer together with the converted month (1 – January, 2 – February, etc) using a SWITCH statement. Always assume the input is valid (input is an integer and not a character, float, etc). Display “Invalid Input” if the user gave a different integer from the choices.
+Prompt the user to input an integer from 1 to 12. Store this integer and display this integer together with the converted month (1 – January, 2 – February, etc) using a **SWITCH** statement. Always assume the input is valid (input is an integer and not a character, float, etc). Display “Invalid Input” if the user gave a different integer from the choices.
 
 ## [ME02_4](me02_4.c)
 Vowel Identifier (2.5 pts)
@@ -61,5 +61,5 @@ Vowel Identifier (2.5 pts)
 1. Letter (user input)
 2. Identify if Vowel (With Example) or Consonant
 
-Prompt the user to input a letter from the English alphabet. Store this letter and display this letter and identify if the letter is a vowel or consonant using a SWITCH statement. If the letter is a vowel, display a word that starts with this letter (A – apple, E – elephant, etc). Take note that the user could input a capital letter or small letter. Always assume the input is valid (input is a character and not an integer, float, etc).  
+Prompt the user to input a letter from the English alphabet. Store this letter and display this letter and identify if the letter is a vowel or consonant using a **SWITCH** statement. If the letter is a vowel, display a word that starts with this letter (A – apple, E – elephant, etc). Take note that the user could input a capital letter or small letter. Always assume the input is valid (input is a character and not an integer, float, etc).  
 **HINT:** use the ASCII table for the case statements.

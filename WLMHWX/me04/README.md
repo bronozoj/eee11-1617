@@ -23,7 +23,7 @@ Calculator Functions (3 pts)
 5. Quotient (A / B)
 6. Modulo (A % B)
 
-Prompt the user to input two integers. Display both integers(user input) and compute its sum, difference, product, quotient, and modulo using FUNCTIONS. Always assume the input is valid (input is an integer and not a character, float, etc). Name your functions as sum(), difference(), product(), quotient(), and modulo(), respectively. These functions should only compute and return their corresponding outputs. All “printf” commands should be on the “int main()” function.
+Prompt the user to input two integers. Display both integers(user input) and compute its sum, difference, product, quotient, and modulo using **FUNCTIONS**. Always assume the input is valid (input is an integer and not a character, float, etc). Name your functions as sum(), difference(), product(), quotient(), and modulo(), respectively. These functions should only compute and return their corresponding outputs. All “printf” commands should be on the “int main()” function.
 
 ## [ME04_2](me04_1.c)
 Number to Words (7 pts)

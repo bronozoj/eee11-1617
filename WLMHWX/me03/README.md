@@ -70,7 +70,7 @@ Age Group (2 pts)
 
 1. Applicable Age Group
 
-Prompt the user to input an integer. Display ALL applicable age group according to the figure shown using a NESTED IF statement. Make sure to include BOTH primary and secondary age group in your output. Always assume the input is valid (input is an integer and not a character, float, etc). Do an error check (identify this number if it is positive, if it is not, end the program).
+Prompt the user to input an integer. Display ALL applicable age group according to the figure shown using a **NESTED IF** statement. Make sure to include BOTH primary and secondary age group in your output. Always assume the input is valid (input is an integer and not a character, float, etc). Do an error check (identify this number if it is positive, if it is not, end the program).
 
 ![me03_5 legend](img/5-1.png)
 

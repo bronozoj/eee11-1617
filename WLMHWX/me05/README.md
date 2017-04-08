@@ -14,7 +14,7 @@ Fibonacci Numbers (2 pts)
 
 F 0 = 0, F 1 = 1	F n = F n-1 + F n-2	F 10 = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 
-Prompt the user to input a positive integer. Use this input as the number of sequence of the Fibonacci. Use a function called void get_fibonacci (int firstnumber, int secondnumber, int sequence) that computes for the Fibonacci sequence, displays the result, and calls the same function to get the next Fibonacci number. You cannot use loops on the int main() function but can print the first 2 Fibonacci numbers there. Do an error check (identify this number if it is between 2 and 30, if it is not, print “Invalid Input” and end the program)
+Prompt the user to input a positive integer. Use this input as the number of sequence of the Fibonacci. Use a function called void get_fibonacci (**int** firstnumber, **int** secondnumber, **int** sequence) that computes for the Fibonacci sequence, displays the result, and calls the same function to get the next Fibonacci number. You cannot use loops on the int main() function but can print the first 2 Fibonacci numbers there. Do an error check (identify this number if it is between 2 and 30, if it is not, print “Invalid Input” and end the program)
 
 ## [ME05_2](me05_2.c)
 Volume and Surface Area of Sphere and Cylinder (4 pts)
@@ -37,7 +37,7 @@ Volume and Surface Area of Sphere and Cylinder (4 pts)
 
 **Cylinder:** 	![cylinder volume](img/vcyl.png) ![cylinder area](img/acyl.png)
 
-Prompt the user to input a positive integer and use this as a radius and height of a sphere and Cylinder. Compute the volume and surface area of the sphere using this radius. Create a file get_equations.h and declare the functions float get_spherevolume(int radius), float get_spheresurfacearea(int radius), float get_cylindervolume(int radius, int height), float get_cylindersurfacearea(int radius, int height) with PI (3.1416) as a GLOBAL VARIABLE. These functions should not have any “printf” commands and should only do computations. Display the radius and height(user input) and the computed volumes and surface area using the int main() function. Do an error check (identify this number if it is between 1 and above, if it is not, end the program. Zero is not valid)
+Prompt the user to input a positive integer and use this as a radius and height of a sphere and Cylinder. Compute the volume and surface area of the sphere using this radius. Create a file get_equations.h and declare the functions **float** get_spherevolume(**int** radius), **float** get_spheresurfacearea(int radius), float get_cylindervolume(int radius, int height), float get_cylindersurfacearea(**int** radius, **int** height) with PI (3.1416) as a GLOBAL VARIABLE. These functions should not have any “printf” commands and should only do computations. Display the radius and height(user input) and the computed volumes and surface area using the int main() function. Do an error check (identify this number if it is between 1 and above, if it is not, end the program. Zero is not valid)
 
 ## [ME05_3](me05_3.c)
 Other Header Files (4 pts)

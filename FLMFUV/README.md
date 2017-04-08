@@ -9,3 +9,4 @@ Laboratory Class Activities
 6. [ME06](me06) SMS Text
 7. [ME07](me07) HTML Decoder
 8. [ME08](me08) CSV Parser
+9. [ME09](me09) Pointer Arithmetic
